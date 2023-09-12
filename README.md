@@ -44,16 +44,16 @@ docker run -p 5000:80 titanic-image:latest
 3. **Push to AWS ECR**: Push the Docker image to your AWS ECR repository.
 ```bash
 # Authenticate with ECR
-aws ecr get-login-password --region <AWS_REGION> | docker login --username AWS --password-stdin <AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com
+aws ecr get-login-password --region AWS_REGION | docker login --username AWS --password-stdin AWS_ACCOUNT_ID.dkr.ecr.AWS_REGION.amazonaws.com
 
 #Tag the Docker Image
-docker tag <YOUR_IMAGE_NAME>:<TAG> <AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/<REPO_NAME>:<TAG>
+docker tag YOUR_IMAGE_NAME:TAG AWS_ACCOUNT_ID.dkr.ecr.AWS_REGION.amazonaws.com/REPO_NAME:TAG
 
 #Push the Docker Image
-docker push <AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/<REPO_NAME>:<TAG>
+docker push AWS_ACCOUNT_ID.dkr.ecr.AWS_REGION.amazonaws.com/REPO_NAME:TAG
 
 # Verify Image Push
-aws ecr describe-images --repository-name <REPO_NAME>
+aws ecr describe-images --repository-name REPO_NAME
 ```
 
 ## Follow these steps to replicate the Cloud Architecture:
