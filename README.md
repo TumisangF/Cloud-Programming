@@ -2,7 +2,7 @@
 
 Welcome to the cloud programming project where I deployed a machine learning model on AWS Cloud Platform to make request and predictions via an IP address! This project showcases the process of building a machine learning model for predicting Titanic passenger survival and deploying it as a web application using Flask and Docker on AWS.
 
-## In this project, we've accomplished the following:
+## In this project, I've accomplished the following:
 
 1. **Machine Learning Model**: I developed a machine learning model using Python and libraries like pandas, scikit-learn, and Jupyter Notebook. This model predicts whether a Titanic passenger survived or not based on various features.
 
