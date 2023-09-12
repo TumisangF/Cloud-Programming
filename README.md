@@ -22,6 +22,30 @@ Welcome to the cloud programming project where I deployed a machine learning mod
 **Public Access**: The web application is available on this address: http://ec2-16-171-146-27.eu-north-1.compute.amazonaws.com:5000/.
 
 
+## Follow these steps to replicate the project:
+
+1. **Clone the Repository**: Clone this repository to your local environment.
+   
+```bash
+git clone https://github.com/TumisangF/Cloud-Programming.git
+```
+3. **Build the Docker Image**: Build the Docker image for the web application using the provided `Dockerfile`.
+   ```bash
+git clone https://github.com/TumisangF/Cloud-Programming.git
+```
+
+5. **Push to AWS ECR**: Push the Docker image to your AWS ECR repository.
+```bash
+git clone https://github.com/TumisangF/Cloud-Programming.git
+```
+
+## Follow these steps to replicate the Cloud Architecture:
+
+6. **Launch EC2 Instance**: Launch an EC2 instance on AWS and configure it to run Docker.
+
+7. **Run the Container**: SSH into the EC2 instance and run the Docker container.
+
+8. **Access the Web Application**: Use the EC2 instance's public IP or DNS to access the web application in a web browser.
 Clone the repository to a computer locally.
 
 ```bash
