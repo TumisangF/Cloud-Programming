@@ -29,7 +29,7 @@ Welcome to the cloud programming project where I deployed a machine learning mod
 ```bash
 git clone https://github.com/TumisangF/Cloud-Programming.git
 ```
-3. **Build the Docker Image**: Build the Docker image for the web application using the provided `Dockerfile`.
+2. **Build the Docker Image**: Build the Docker image for the web application using the provided `Dockerfile`.
 ```bash
 # Change to the ML directory
 cd '.\Machine Learning Web Application\'
@@ -41,9 +41,19 @@ docker build -t titanic-image:latest .
 docker run -p 5000:80 titanic-image:latest
 ```
 
-5. **Push to AWS ECR**: Push the Docker image to your AWS ECR repository.
+3. **Push to AWS ECR**: Push the Docker image to your AWS ECR repository.
 ```bash
-git clone https://github.com/TumisangF/Cloud-Programming.git
+# Authenticate with ECR
+aws ecr get-login-password --region <AWS_REGION> | docker login --username AWS --password-stdin <AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com
+
+#Tag the Docker Image
+docker tag <YOUR_IMAGE_NAME>:<TAG> <AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/<REPO_NAME>:<TAG>
+
+#Push the Docker Image
+docker push <AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/<REPO_NAME>:<TAG>
+
+# Verify Image Push
+aws ecr describe-images --repository-name <REPO_NAME>
 ```
 
 ## Follow these steps to replicate the Cloud Architecture:
