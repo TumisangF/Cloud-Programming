@@ -14,11 +14,13 @@ Welcome to the cloud programming project where I deployed a machine learning mod
 4. **Amazon ECR**: I pushed the Docker images to Amazon Elastic Container Registry (ECR). ECR is a managed container registry service in AWS that allows us to store, manage, and deploy Docker images.
 
 5. **AWS EC2 Deployment**: I finally deployed the Docker container on an Amazon EC2 instance, which provides scalable and resizable compute capacity. This instance runs the Flask web application and makes it accessible via a public IP address.
+
 6. **Public Access**: The web application is made available to the public via a public IPv4 DNS address. Users can access the application through a web browser and make predictions.
 
 
 ## To make a prediction, you can enter the passenger information in the web application. The application will then use the machine learning model to predict whether the passenger survived or not.
 **Public Access**: The web application is available on this address: http://ec2-16-171-146-27.eu-north-1.compute.amazonaws.com:5000/.
+
 
 Clone the repository to a computer locally.
 
