@@ -58,38 +58,15 @@ aws ecr describe-images --repository-name REPO_NAME
 
 ## Follow these steps to replicate the Cloud Architecture:
 
-6. **Launch EC2 Instance**: Launch an EC2 instance on AWS and configure it to run Docker.
-
-7. **Run the Container**: SSH into the EC2 instance and run the Docker container.
-
-8. **Access the Web Application**: Use the EC2 instance's public IP or DNS to access the web application in a web browser.
-Clone the repository to a computer locally.
-
+**Change to the AWS Cloud Architecture**:
+   The directory contains a dedicated IaC files that use Terraform tool to enable the clould archicture to be managable and replicable
 ```bash
-git clone https://github.com/TumisangF/Habit-Tracking-App.git
-```
-Navigate to the habit tracker directory.
-```bash
-cd Habit-Tracking-Application
+cd '\AWS Cloud Architecture\'
 ```
 
-## Usage
-Follow the following steps to run the application
-
-1. Run the following script
-```python
-python .\cli.py
-```
-As soon as the application launches, a menu of options will be displayed. Actions such as viewing habits, adding habits, crossing off to-do items, and obtaining analytics are all available for selection.
-
-Observe the prompts and enter the information required as instructed by the application's interface.
-
-For running the tests run the following commmand
-```python
-python -m pytest .\habitTrackerTest.py
-```
-
-Have fun monitoring your behavior and evaluating your development!
+## Making predictions.
+**To predict whether a passenger survived or not using Machine learning:
+Follow this link: http://ec2-16-171-146-27.eu-north-1.compute.amazonaws.com:5000/
 
 
 ## Contributing
@@ -97,9 +74,6 @@ Have fun monitoring your behavior and evaluating your development!
 Contributions are appreciated! Follow the instructions in the CONTRIBUTING.md file if you want to contribute to the Habit Tracker project.
 
 ## Acknowledgements
-
-I would like convey my profound appreciation  to Dr. Max Pumperla for his advice, expertise, and ongoing assistance throughout the project. The design and functioning of the application has been significantly affected by his helpful feedback.
-
 
 I thank IU International University of Applied Sciences for allowing me the chance to work on this project and for the tools and information  provided to me .
 
