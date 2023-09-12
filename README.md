@@ -65,7 +65,7 @@ cd '\AWS Cloud Architecture\'
 ```
 
 ## Making predictions.
-**To predict whether a passenger survived or not using Machine learning:
+**To predict whether a passenger survived or not using Machine learning:***
 Follow this link: http://ec2-16-171-146-27.eu-north-1.compute.amazonaws.com:5000/
 
 
