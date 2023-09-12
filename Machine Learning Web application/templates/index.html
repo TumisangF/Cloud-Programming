@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Titanic Survival Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Titanic Survival Prediction</h1>
+        <form method="POST" action="/predict" class="prediction-form">
+            <div class="form-group">
+                <label for="pclass" class="input-label">Passenger Class (1: 1st Class, 2: 2nd Class,3: 3rd Class):</label>
+                <input type="text" name="pclass" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="sex" class="input-label">Sex (0: Male, 1: Female):</label>
+                <input type="text" name="sex" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="age" class="input-label">Age:</label>
+                <input type="text" name="age" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="siblings_spouses" class="input-label">Number of Siblings/Spouses Aboard:</label>
+                <input type="text" name="siblings_spouses" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="parents_children" class="input-label">Number of Parents/Children Aboard:</label>
+                <input type="text" name="parents_children" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="embarked" class="input-label">Embarked (0: C, 1: Q, 2: S):</label>
+                <input type="text" name="embarked" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="fare" class="input-label">Fare:</label>
+                <input type="text" name="fare" class="input-field" required>
+            </div>
+            <button type="submit" class="predict-button">Predict</button>
+        </form>
+        {% if prediction_result %}
+            <p class="prediction-result">Prediction Result: {{ prediction_result }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
