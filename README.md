@@ -30,8 +30,12 @@ Welcome to the cloud programming project where I deployed a machine learning mod
 git clone https://github.com/TumisangF/Cloud-Programming.git
 ```
 3. **Build the Docker Image**: Build the Docker image for the web application using the provided `Dockerfile`.
-   ```bash
-git clone https://github.com/TumisangF/Cloud-Programming.git
+```bash
+# Change to the ML directory
+cd '.\Machine Learning Web Application\'
+
+# Build the docker image
+docker build -t titanic-image:latest .
 ```
 
 5. **Push to AWS ECR**: Push the Docker image to your AWS ECR repository.
