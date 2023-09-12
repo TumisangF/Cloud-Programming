@@ -38,7 +38,7 @@ cd '.\Machine Learning Web Application\'
 docker build -t titanic-image:latest .
 
 # To test the image. You can run the container locally.
-docker run -p 5000:80 my-app-image:latest
+docker run -p 5000:80 titanic-image:latest
 ```
 
 5. **Push to AWS ECR**: Push the Docker image to your AWS ECR repository.
