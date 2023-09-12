@@ -18,7 +18,7 @@ Welcome to the cloud programming project where I deployed a machine learning mod
 6. **Public Access**: The web application is made available to the public via a public IPv4 DNS address. Users can access the application through a web browser and make predictions.
 
 
-## To make a prediction, you can enter the passenger information in the web application. The application will then use the machine learning model to predict whether the passenger survived or not.
+## The application will then use the machine learning model to predict whether the passenger survived or not.
 **Public Access**: The web application is available on this address: http://ec2-16-171-146-27.eu-north-1.compute.amazonaws.com:5000/.
 
 
