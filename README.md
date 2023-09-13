@@ -5,7 +5,7 @@ Welcome to the cloud programming project where I deployed a machine learning mod
 
 ## In this project, I've accomplished the following:
 
-1. **Machine Learning Model**: I developed a machine learning model using Python and libraries like pandas, scikit-learn, and Jupyter Notebook. This model predicts whether a Titanic passenger survived or not based on various features.
+1. **Machine Learning Model**: I developed a machine learning model using Python and libraries like pandas, numPy, scikit-learn. This model predicts whether a Titanic passenger survived or not based on various features.
 
 2. **Flask Web Application**: created a web application using Flask, a Python web framework. This application allows users to interact with the machine learning model by providing passenger information and receiving predictions.
 
