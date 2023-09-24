@@ -15,25 +15,25 @@ To get started, follow these steps:
 ```bash
 https://github.com/TumisangF/Cloud-Programming.git
 ```
-2. **Change to the infrastructure sub-directory.
+2. Change to the infrastructure sub-directory.
 
 ```bash
 cd '.\AWS Cloud Architecture\'
 ```
 
-3. **Initialize terraform.
+3. Initialize terraform.
 
 ```bash
 terraform init
 ```
 
-4. **Review the changes that terraform is about to apply.
+4. Review the changes that terraform is about to apply.
 
 ```bash
 terraform plan
 ```
 
-5. **Apply the Terraform configuration to create the infrastructure:.
+5. Apply the Terraform configuration to create the infrastructure:.
 
 ```bash
 terraform apply
