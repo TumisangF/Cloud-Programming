@@ -1,11 +1,12 @@
 ## Terraform AWS Infrastructure
-This repository contains Terraform code to provision infrastructure on AWS, including an Amazon Elastic Container Registry (ECR) repository and an EC2 instance. The infrastructure is defined using Terraform modules for modularity and ease of management.
+This repository contains Terraform code for setting up AWS infrastructure, such as an EC2 instance and an Amazon Elastic Container Registry (ECR) repository. Terraform modules are used to define the infrastructure in order to make it modular and manageable.
 
-##Prerequisites
+## Prerequisites
 Before you begin, ensure you have met the following requirements:
 
-Terraform CLI installed locally. You can download it from Terraform's official website.
-Getting Started
+* Terraform is installed locally.
+
+## Getting Started
 To get started, follow these steps:
 
 Clone this repository to your local machine:
