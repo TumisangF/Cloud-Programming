@@ -13,7 +13,7 @@ To get started, follow these steps:
 1. Clone this repository to your local environment.
    
 ```bash
-https://github.com/TumisangF/Cloud-Programming.git
+git clone https://github.com/TumisangF/Cloud-Programming.git
 ```
 2. Change to the infrastructure sub-directory.
 
