@@ -39,27 +39,8 @@ terraform plan
 terraform apply
 ```
 
-## Follow these steps to replicate the Cloud Architecture:
-
-**Change to the AWS Cloud Architecture**:
-   The directory contains a dedicated IaC files that use Terraform tool to enable the clould archicture to be managable and replicable
-```bash
-cd '\AWS Cloud Architecture\'
-```
-
-## Making predictions.
-**To predict whether a passenger survived or not using Machine learning:***
-Follow this link: http://ec2-16-171-146-27.eu-north-1.compute.amazonaws.com:5000/
-
-
-## Contributing
-
-Contributions are appreciated! Follow the instructions in the CONTRIBUTING.md file if you want to contribute to the Habit Tracker project.
-
-## Acknowledgements
-
-I thank IU International University of Applied Sciences for allowing me the chance to work on this project and for the tools and information  provided to me .
-
+## Acknowledgments
+Terraform: Infrastructure as Code tool by HashiCorp.
 ##License
 This project is licensed under the MIT License.
 
