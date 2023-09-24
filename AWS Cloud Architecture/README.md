@@ -10,7 +10,7 @@ Before you begin, ensure you have met the following requirements:
 To get started, follow these steps:
 
 
-1. **Clone the Repository**: Clone this repository to your local environment.
+1. Clone this repository to your local environment.
    
 ```bash
 https://github.com/TumisangF/Cloud-Programming.git
