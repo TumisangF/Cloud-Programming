@@ -39,9 +39,6 @@ terraform plan
 terraform apply
 ```
 
-## Acknowledgments
-Terraform: Infrastructure as Code tool by HashiCorp.
-##License
-This project is licensed under the MIT License.
+
 
 
